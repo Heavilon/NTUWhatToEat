@@ -54,7 +54,7 @@ window1.geometry('455x315')
 window1_canvas = tk.Canvas(window1, width=455, height=315, bd=0, highlightthickness=0)
 
 # 圖片檔案記得改成自己的路徑
-imgpath = '/Users/Aaron/Documents/112_background.png'
+imgpath = '/Documents/112_background.png'
 img = Image.open(imgpath)
 photo = ImageTk.PhotoImage(img)
 
